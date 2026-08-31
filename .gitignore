@@ -1,0 +1,23 @@
+# UE5 自动生成的缓存文件夹
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+.vs/
+.vscode/
+
+# 操作系统垃圾文件
+.DS_Store
+Thumbs.db
+
+# VS Code 本地配置
+*.code-workspace
+
+# UE5 本地用户配置
+*.uproject.user
+*.uproject.user.*
+# UE5 本地缓存 & 个人文件夹
+Developers/
+Collections/
+__ExternalActors__/
+__ExternalObjects__/
