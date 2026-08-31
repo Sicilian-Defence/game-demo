@@ -1,14 +1,15 @@
+这个Content文件夹转存在UE5的项目文件夹里面了，不在game-demo根目录下了
 
 
 Content/
 │
-├── Art/                          ← 所有美术资源（TA主管区域）
-│   ├── Characters/               ← 角色相关
+├── Art/                          ← 所有美术资源(美术与UI负责管理)
+│   ├── Characters/               ← 角色
 │   │   ├── Player/               ← 玩家角色
-│   │   │   ├── Meshes/           ← 模型（SM_Player, SK_Player）
-│   │   │   ├── Textures/         ← 贴图（T_Player_D, T_Player_N...）
-│   │   │   ├── Materials/        ← 材质（M_Player, MI_Player_Body...）
-│   │   │   └── Animations/       ← 动画（A_Player_Idle, A_Player_Run...）
+│   │   │   ├── Meshes/           ← 模型
+│   │   │   ├── Textures/         ← 贴图
+│   │   │   ├── Materials/        ← 材质
+│   │   │   └── Animations/       ← 动画
 │   │   └── NPC/                  ← NPC/敌人
 │   │       ├── Meshes/
 │   │       ├── Textures/
@@ -40,11 +41,11 @@ Content/
 │       └── Fonts/                ← 字体文件
 │
 ├── Blueprints/                   ← 所有蓝图（程序主管区域）
-│   ├── Characters/               ← 角色蓝图（BP_Player, BP_NPC）
-│   ├── Weapons/                  ← 武器蓝图（BP_Rifle, BP_Pistol）
-│   ├── Gameplay/                 ← 游戏逻辑（BP_GameMode, BP_GameState）
-│   ├── UI/                       ← UI蓝图（WBP_HUD, WBP_MainMenu）
-│   └── Props/                    ← 交互道具蓝图（BP_HealthPack, BP_AmmoBox）
+│   ├── Characters/               ← 角色蓝图
+│   ├── Weapons/                  ← 武器蓝图
+│   ├── Gameplay/                 ← 游戏逻辑
+│   ├── UI/                       ← UI蓝图
+│   └── Props/                    ← 交互道具蓝图
 │
 ├── Core/                         ← 核心系统（程序主管区域）
 │   ├── GameModes/                ← 游戏模式（不同模式的配置）
@@ -58,7 +59,7 @@ Content/
 │   └── Dialogues/                ← 对话语音
 │
 ├── Maps/                         ← 关卡地图
-│   ├── Levels/                   ← 游戏关卡（L_TestMap, L_Island）
+│   ├── Levels/                   ← 游戏关卡
 │   └── SubLevels/                ← 子关卡（用于流式加载）
 │
 ├── Data/                         ← 数据表
